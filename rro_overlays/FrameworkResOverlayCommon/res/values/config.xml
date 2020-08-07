@@ -270,4 +270,8 @@
     <!-- to enable or not the statusbarburninprotection -->
     <bool name="config_statusBarBurnInProtection">true</bool>
 
+    <!-- Whether device supports sensor based doze customizations -->
+    <bool name="config_dozePulseTilt">true</bool>
+    <bool name="config_dozePulseProximity">true</bool>
+    <bool name="config_deviceHaveWakeUpProximity">true</bool>
 </resources>
