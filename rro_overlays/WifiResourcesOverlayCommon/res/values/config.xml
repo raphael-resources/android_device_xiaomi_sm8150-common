@@ -92,4 +92,8 @@
          immediately after the country code is sent to the driver (if the method returns a
          success). -->
     <bool translatable="false" name="config_wifiDriverSupportedNl80211RegChangedEvent">true</bool>
+
+    <!-- Do not translate. Default access point SSID used for tethering -->
+    <string name="wifi_tether_configure_ssid_default" translatable="false">Redmi K20 pro</string>
+
 </resources>
