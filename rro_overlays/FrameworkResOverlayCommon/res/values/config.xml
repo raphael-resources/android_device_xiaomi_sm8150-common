@@ -263,4 +263,11 @@
     <!-- Whether WM DisplayContent supports high performance transitions
          (lower-end devices may want to disable) -->
     <bool name="config_deviceSupportsHighPerfTransitions">false</bool>
+
+    <!-- If true, the display will be shifted around in ambient mode. -->
+    <bool name="config_enableBurnInProtection">true</bool>
+
+    <!-- to enable or not the statusbarburninprotection -->
+    <bool name="config_statusBarBurnInProtection">true</bool>
+
 </resources>
