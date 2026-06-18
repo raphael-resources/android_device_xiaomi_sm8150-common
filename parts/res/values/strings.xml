@@ -23,6 +23,9 @@
     <string name="haptic_level_summary">Amount of vibration intensity</string>
     <string name="haptic_level_summary_incompatible">Feature not supported</string>
 
+    <!--DC-Dimming Tile-->
+    <string name="dc_dimming_enable_title">DC Dimming</string>
+
     <!-- HBM tile -->
     <string name="hbm_mode_title">High Brightness Mode</string>
 </resources>
