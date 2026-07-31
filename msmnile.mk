@@ -331,6 +331,7 @@ PRODUCT_PACKAGES += \
     fstab.qcom.vendor_ramdisk
 
 PRODUCT_PACKAGES += \
+    android_auto_audio.sh \
     init.class_main.sh \
     init.qcom.class_core.sh \
     init.qcom.early_boot.sh \
@@ -343,6 +344,7 @@ PRODUCT_PACKAGES += \
     init.qcom.power.rc \
     init.qcom.rc \
     init.qcom.usb.rc \
+    init.raphael.android_auto.rc \
     init.recovery.qcom.rc \
     init.target.rc \
     init.xiaomi.rc \
