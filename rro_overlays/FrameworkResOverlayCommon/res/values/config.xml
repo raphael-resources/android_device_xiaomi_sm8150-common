@@ -270,4 +270,6 @@
     <!-- to enable or not the statusbarburninprotection -->
     <bool name="config_statusBarBurnInProtection">true</bool>
 
+    <!-- Sets the scaling divisor for battery current values in Power Insight. -->
+    <integer name="config_powerInsightCurrentDivisor">-1</integer>
 </resources>
