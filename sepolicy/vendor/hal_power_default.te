@@ -3,3 +3,11 @@ allow hal_power_default sysfs_touchpanel:file rw_file_perms;
 
 # To do powerhint on nodes defined in powerhint.json
 allow hal_power_default vendor_latency_device:chr_file rw_file_perms;
+
+# ADPF updates app threads across per-app MLS categories.
+typeattribute hal_power_default mlstrustedsubject;
+
+# Apply per-thread uclamp for app, System Server, SurfaceFlinger, and HWC hint sessions.
+allow hal_power_default self:capability sys_nice;
+allow hal_power_default { appdomain hal_graphics_composer_default surfaceflinger system_server }:process { getsched setsched };
+
