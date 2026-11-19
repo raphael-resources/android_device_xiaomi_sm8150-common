@@ -132,6 +132,9 @@ PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
     frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml
 
+# ViPER4AndroidFX
+$(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
+
 # Camera
 $(call soong_config_set_bool,camera,override_format_from_reserved,true)
 $(call soong_config_set,camera,package_name,com.xiaomi.sessionparams.clientName)
